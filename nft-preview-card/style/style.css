@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d1a2d;
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#card{
+  width: 270px;
+  height: 450px;
+  padding: 20px;
+  background-color: #15273f;
+  border-radius: 3%;
+  color: #9bb4d8;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#equilibrium-view{
+  position: relative;
+  height: 270px;
+  border-radius: 4%;
+}
+#equilibrium-view:hover{
+  background: #00fff7a2;
+}
+#equilibrium-img{
+  position: relative;
+  width: 100%;
+  height: 270px;
+  border-radius: 3%;
+  z-index: 1;
+}
+#equilibrium-img:hover{
+  opacity: 30%;
+}
+#view-img{
+  position: relative;
+  top: -167px;
+  left: 110px;
+}
+h3{
+  color: #fbfdfe;
+}
+h3:hover{
+  color: #00FFF8;
+}
+#ethereum-clock{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+#ethereum{
+  font-weight: 600;
+  color: #00FFF8;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#ethereumSpan{
+  width: 12px;
+  height: 20px;
+}
+#clock{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#clockSpan{
+  width: 15px;
+  height: 15px;
+}
+#username{
+  padding-top: 13px;
+  width: 100%;
+  border-top-color: #9bb4d83a;
+  border-top-width: 0.5px;
+  border-top-style: solid;
+  display: flex;
+  align-items: center;
+}
+#username img{
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#usernameSpan{
+  color: #fbfeff;
+  margin-left: 3px;
+}
+#usernameSpan:hover{
+  color: #00FFF8;
+}
