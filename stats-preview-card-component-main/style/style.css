@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main{
+  width: 1000px;
+  height: 430px;
+  display: flex;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+}
+article{
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+p{
+  font-weight: 100;
+  font-size: 16px;
+  color: rgb(179, 179, 179);
+}
+h1{
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+h1 span{
+  color: hsl(277, 64%, 61%);
+}
+article section{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+h2{
+  font-weight: 900;
+}
+section p{
+  font-size: 13px;
+  margin-top: 7px;
+}
+#image img{
+  width: 500px;
+  height: 100%;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  opacity: 0.5;
+}
+#image{
+  background-color: hsl(277, 93%, 29%);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+@media only screen and (max-width: 1024px) {
+  main{
+    width: 640px;
+    height: 350px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  #image img{
+    width: 320px;
+  }
+  p{
+    font-size: 14px;
+  }
+  article section{
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  main{
+    width: 280px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column-reverse;
+  }
+  article{
+    width: 150px;
+    margin-left: 0;
+    justify-content: normal;
+    align-items: center;
+  }
+  h1{
+    width: 251px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  article p{
+    height: 10px;
+  }
+  #description{
+    width: 270px;
+    height: 75px;
+  }
+  article section{
+    height: 30px;
+    margin-top: 0;
+    gap: 10px;
+    flex-direction: column;
+  }
+  #image img{
+    width: 280px;
+    height: 164px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+  }
+  #image{
+    height: 164px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+.attribution{
+  position: absolute;
+  bottom: 0;
+}
