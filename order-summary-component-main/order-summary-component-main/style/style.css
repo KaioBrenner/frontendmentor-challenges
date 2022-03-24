@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  font-family: 'Heebo', sans-serif;
+}
+html{
+  height: 100%;
+}
+body{
+  background-image: linear-gradient(#D6E1FF,#E0E8FF);
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  width: 310px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 15px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.555);
+}
+#hero-illustration{
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+h1{
+  color:  hsl(223, 47%, 23%);
+  font-size: 20px;
+}
+p{
+  font-weight: 200;
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+  text-align: center;
+}
+#sub-title{
+  width: 216px;
+}
+section{
+  background-color: #e1ebef59;
+  width: 230px;
+  height: 55px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+}
+section div div{
+  display: flex;
+  flex-direction: column;
+}
+section img{
+  width: 37px;
+  height: 37px;
+  margin-left: 5px;
+}
+section p{
+  text-align: left;
+}
+section h3{
+  font-size: 13px;
+  color:  hsl(223, 47%, 23%);
+}
+section a{
+  font-size: 12px;
+  font-weight: 700;
+  color: blue;
+}
+section a:hover{
+  text-decoration: none;
+  color: #392ae1d7;
+}
+#proceed-link{
+  border: none;
+  background-color: #382AE1;
+  color: hsl(225, 100%, 98%);
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 10px gray;
+}
+#proceed-link:hover{
+  background-color: #392ae198;
+  box-shadow: 1px 0px 10px rgba(128, 128, 128, 0.315);
+}
+#cancel-link{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 7px;
+  color: hsl(224, 23%, 55%);
+}
+#cancel-link:hover{
+  background: rgba(128, 128, 128, 0.089);
+}
+.attribution{
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a{ 
+  color: hsl(228, 45%, 44%);
+}
